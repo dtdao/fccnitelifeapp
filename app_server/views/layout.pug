@@ -2,6 +2,22 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="/bootstrap/css/bootstrap.min.css")
+    link(rel="stylesheet", href="/bootstrap/css/bootstrap-simplex.css")
+    link(rel="stylesheet", href="/stylesheets/style.css")
   body
+    h1.display-2 #MEETME,NOW
+    h2.text-muted a simple site to find what is near you and to coordinate with your friends.
+    p.text-muted what is happening to tonight, let's see and find out.
+
+    br
+    .container
+        .input-group
+            input.form-control(type="text" placeholder="#Whereyouat?")
+            span.search-btn-group    
+                button.btn.btn-dark(type="submit") GO
+    br
+        
     block content
+

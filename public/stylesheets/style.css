@@ -6,3 +6,13 @@ body {
 a {
   color: #00B7FF;
 }
+
+img {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+img:hover {
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+}
